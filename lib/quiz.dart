@@ -25,6 +25,7 @@ void switchScreen (){
          :const QuestionsScreen();
 
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Container(
          decoration: const BoxDecoration(
@@ -37,11 +38,10 @@ void switchScreen (){
             end: Alignment.bottomRight,
           ),
         ), 
+        
         child: screenWidget,
-       
- 
-      ),
-    ),  
+       ),
+      ),  
     );
   }     
   } 

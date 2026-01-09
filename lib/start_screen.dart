@@ -35,14 +35,18 @@ return Center(
           ),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(30),
+            
           ),
+          shadowColor: Colors.white,
         ),
         child: const Text(
           'Start Quiz',
           style: TextStyle(
             fontSize: 20,
             color: Colors.white,
+            fontWeight: FontWeight.bold,
           ),
+          
         ),
       ), 
   ],

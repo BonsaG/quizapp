@@ -17,9 +17,18 @@ import 'package:flutter/material.dart';
         backgroundColor: Colors.blue,
         foregroundColor: Colors.white,
         padding: EdgeInsets.symmetric(vertical: 12, horizontal: 20),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(40),
+        ),
         textStyle: TextStyle(fontSize: 18),
       ),
+      
       child: Text(answerText),
     );
   }
 }
+          // ElevatedButton(onPressed: () {}, child: const Text(' Question 1')),
+          // ElevatedButton(onPressed: () {}, child: const Text(' Question 2')),
+          // ElevatedButton(onPressed: () {}, child: const Text(' Question 3')),
+          // ElevatedButton(onPressed: () {}, child: const Text(' Question 4')),
+          // // ElevatedButton(onPressed: () {}, child: const Text(' Question 5')),
